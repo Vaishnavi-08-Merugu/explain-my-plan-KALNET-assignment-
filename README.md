@@ -23,21 +23,37 @@ to see your score improve in real time with a before vs after comparison.
 ## Project Structure
 
 EXPLAIN-MY-PLAN/
+
 ├── backend/
+
 │   ├── .env
+
 │   ├── package.json
+
 │   └── server.js
+
 ├── frontend/
+
 │   ├── public/
+
 │   ├── src/
+
 │   │   ├── assets/
+
 │   │   ├── App.css
+
 │   │   ├── App.jsx
+
 │   │   ├── index.css
+
 │   │   └── main.jsx
+
 │   ├── index.html
+
 │   ├── package.json
+
 │   └── vite.config.js
+
 └── README.md
 
 ## Setup Instructions
