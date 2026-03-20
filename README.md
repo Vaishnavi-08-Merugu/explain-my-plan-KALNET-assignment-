@@ -1,4 +1,4 @@
-xplain My Plan — AI Clarity & Structuring Tool
+Explain My Plan — AI Clarity & Structuring Tool
 Turn your vague idea into a structured, actionable plan in seconds.
 Live Demo: https://explain-my-plan-kalnet-assignment-d.vercel.app
 GitHub: https://github.com/Vaishnavi-08-Merugu/explain-my-plan-KALNET-assignment-.git
