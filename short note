@@ -1,0 +1,12 @@
+## Challenges Faced
+
+The biggest challenge I faced was the Gemini API quota running out during development. The free tier hit its daily limit almost immediately which blocked real AI responses during testing. To work around this
+I built a smart keyword-based fallback system inside the backend that detects the topic from the user's input and returns a fully structured response without needing an API call. This kept the app functional
+throughout development and actually made it faster to test. Another challenge was making the JSON response from the AI consistent every time. Early prompt versions returned markdown or extra text
+which broke the JSON parsing. I fixed this by adding strict instructions in the prompt telling the AI to return raw JSON only with no extra text, no backticks, and no markdown formatting.
+
+## How I Approached AI Prompting
+
+I treated the prompt like a contract between me and the AI. I defined exactly what role the AI plays, what input it receives, what output format it must return, and what rules it must follow for scoring.
+Every field in the JSON response is explicitly named in the prompt so the AI never guesses the structure. The scoring rules are written as clear conditions so the score is logical and explainable, not
+random. This approach made the responses consistent, structured, and directly usable in the frontend without any extra processing.
